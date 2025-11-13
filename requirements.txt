@@ -1,0 +1,13 @@
+pytest
+reportlab
+pdfrw
+sentence-transformers
+
+# Optional OCR dependencies (for image processing)
+# Uncomment these lines if you need to process image files:
+# Pillow>=9.0.0
+# pytesseract>=0.3.10
+
+# Optional PDF processing (already included via basic Python)
+PyMuPDF>=1.23.0
+pdfminer.six>=20220524

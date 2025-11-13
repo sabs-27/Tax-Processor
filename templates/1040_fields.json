@@ -1,0 +1,17 @@
+[
+  "(YourFirstName)",
+  "(YourLastName)",
+  "(SSN)",
+  "(Wages)",
+  "(FederalIncomeTaxWithheld)",
+  "(AdjustedGrossIncome)",
+  "(TaxableIncome)",
+  "(TotalTax)",
+  "(TotalPayments)",
+  "(TaxDue)",
+  "(FilingStatus)",
+  "(EmployerEIN)",
+  "(Summary_AGI)",
+  "(Summary_TaxableIncome)",
+  "(Summary_TotalTax)"
+]

@@ -1,0 +1,1 @@
+Form W-2\nEmployer: ACME Corp\nEmployer Identification Number (EIN): 12-3456789\nEmployee SSN: 123-45-6789\nBox 1: Wages, tips, other compensation $50,000.00\nBox 2: Federal income tax withheld $5,000.00\n

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tax Upload</title>
+  <link rel="stylesheet" href="/static.css">
+</head>
+<body>
+  <main>
+  <h1>Tax Upload</h1>
+    <section id="upload-section">
+      <form id="upload-form">
+        <label>Filing status:
+          <select name="filing_status" id="filing_status">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+          </select>
+        </label>
+        <label>Withholding (optional):
+          <input type="number" name="withholding" id="withholding" step="0.01" placeholder="5000" />
+        </label>
+        <label>Upload files (PDF, TXT, PNG, JPG):
+          <input type="file" id="files" name="files" multiple />
+        </label>
+        <button type="submit">Upload & Process</button>
+      </form>
+      <div id="status" aria-live="polite"></div>
+      <div id="result"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

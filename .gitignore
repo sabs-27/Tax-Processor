@@ -1,0 +1,54 @@
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Pytest cache
+.pytest_cache/
+.coverage
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp_*
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Local configuration
+config.local.py
+secrets.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Flask instance folder
+instance/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

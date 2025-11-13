@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+main { max-width: 900px; margin: auto; }
+label { display:block; margin: 8px 0; }
+#status { margin-top: 12px; color: #333; }
+#result { margin-top: 16px; background: #f9f9f9; padding: 12px; border-radius: 6px; }
+pre { background: #fff; padding: 8px; border: 1px solid #eee; }
